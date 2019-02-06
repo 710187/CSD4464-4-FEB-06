@@ -1,0 +1,37 @@
+package javaapplication11;
+
+
+public class JavaApplication11 
+{
+
+   
+    public static void main(String[] args) 
+    {
+       class SoccerTeam
+       {
+           String Teamname;
+           int NumberOfWins;
+           int ShotsOnTarget;
+          
+       }
+       class TeamA extends SoccerTeam
+       {
+           Player Joe= new Player();
+       
+       }
+       class TeamB extends SoccerTeam
+       {
+           
+       
+       }
+       class Player
+       {
+           String PlayerName;
+           int SeasonScore;
+           int CareerScore;
+           int RunningSpeed;
+           int ScoringRank;
+       }
+    }
+    
+}
